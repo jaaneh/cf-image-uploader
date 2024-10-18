@@ -1,0 +1,19 @@
+{
+  "name": "@noroff/uploader",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": "Jan Henning Teige <jan.teige@noroff.no>",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "pnpm dlx sst dev",
+    "deploy": "pnpm dlx sst deploy --stage production"
+  },
+  "dependencies": {
+    "hono": "^4.6.5",
+    "sst": "3.2.26"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20241011.0",
+    "prettier": "^3.3.3"
+  }
+}
